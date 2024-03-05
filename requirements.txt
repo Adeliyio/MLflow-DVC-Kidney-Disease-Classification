@@ -1,0 +1,20 @@
+# Required Python packages for the project
+tensorflow==2.12.0        # TensorFlow deep learning framework version 2.12.0
+pandas                    # Data manipulation and analysis library
+dvc                       # Data Version Control for managing ML models and data
+mlflow==2.2.2             # MLflow for tracking and managing machine learning experiments
+notebook                  # Jupyter Notebook for interactive computing
+numpy                     # Numerical computing library
+matplotlib                # Plotting library
+seaborn                   # Statistical data visualization library
+python-box==6.0.2         # Python library for working with dictionaries in a box-like manner
+pyYAML                    # YAML parser and emitter for Python
+tqdm                      # Progress bar library
+ensure==1.0.2             # Library for ensuring certain properties on input
+joblib                    # Library for parallel computing
+types-PyYAML              # Type stubs for PyYAML
+scipy                     # Scientific computing library
+Flask                     # Web application framework
+Flask-Cors                # Flask extension for handling Cross-Origin Resource Sharing
+gdown                     # Downloading files from Google Drive
+-e .                      # Install the project in editable mode (useful for development)
