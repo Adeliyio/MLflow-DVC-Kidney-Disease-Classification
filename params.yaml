@@ -1,1 +1,25 @@
-key: value
+# Configuration for model training
+
+# Whether to apply data augmentation during training
+AUGMENTATION: True
+
+# Size of the input images [height, width, channels]
+IMAGE_SIZE: [224, 224, 3]  # as per VGG 16 model
+
+# Batch size used for training
+BATCH_SIZE: 16 (due to the limited capacity of my system)
+
+# Whether to include the top (fully connected) layers of the model
+INCLUDE_TOP: False
+
+# Number of epochs for training
+EPOCHS: 1
+
+# Number of classes in the classification problem
+CLASSES: 2
+
+# Pre-trained weights to initialize the model
+WEIGHTS: imagenet
+
+# Learning rate used in the optimizer
+LEARNING_RATE: 0.01
