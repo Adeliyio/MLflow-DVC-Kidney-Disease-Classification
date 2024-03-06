@@ -7,7 +7,7 @@ AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3]  # as per VGG 16 model
 
 # Batch size used for training
-BATCH_SIZE: 16 (due to the limited capacity of my system)
+BATCH_SIZE: 16 # (due to the limited capacity of my system)
 
 # Whether to include the top (fully connected) layers of the model
 INCLUDE_TOP: False
